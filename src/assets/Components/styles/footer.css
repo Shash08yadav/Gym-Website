@@ -1,0 +1,103 @@
+.footer{
+    height: max-content;
+    width: 100%;
+    background-color: rgba(21,21, 21);
+    /* padding: 10px; */
+  }
+  .footerbox{
+    padding-top: 20px;
+    height: 60vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-bottom: 15px;
+    
+  
+  }
+  
+  .services{
+    height: 45vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  .services h1{
+    color: rgb(254,94,23)
+  }
+  .services h2{
+    color: #f9f6f6;
+    cursor: pointer;
+  }
+  .social{
+    padding-top: 40px;
+  }
+  .socialmed{
+    padding: 10px;
+  color: rgb(254,94,23);
+  font-size: 3rem;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  }
+  .socialmed a{
+    color: rgb(254,94,23);
+  }
+  .company{
+    height: 45vh;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .locate{
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .company h2{
+    color: aliceblue;
+  }
+  .company h1{
+    color: rgb(254,94,23);
+  }
+  .address{
+    height: 45vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+  }
+  .address h1{
+    color: rgb(254,94,23);
+  }
+  .address h2{
+    color: #f9f6f6;
+    font-size: large;
+  }
+  .address h3{
+    color: #f9f6f6;
+   
+  }
+  .desby{
+    /* background-color: blue; */
+    border-top: 2px solid rgb(254,94,23);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 14px;
+   
+  
+  }
+  .desby h1{
+    color:white ;
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }

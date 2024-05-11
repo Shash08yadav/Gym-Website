@@ -1,0 +1,94 @@
+.membership{
+    height:50vh;
+    width: 100%;
+    background-image: url(membership4.webp);
+    background-size: cover;
+    background-position: center;
+   
+}
+.head1{
+    display: flex;
+    justify-content:space-around;
+    
+    align-items:flex-start;
+    padding: 140px;
+    
+    flex-direction: column;
+}
+.register{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(25,25,24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.registerbox{
+    height: 90vh;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.registerbox h1{
+    color: rgb(147,147,147);
+}
+.registerbox input{
+    width: 400px;
+    height: 40px;
+    font-size: larger;
+    padding-left: 10px;
+}
+.registerbox label{
+    color: rgb(147,147,147);
+    font-size: large;
+}
+.registerbox select{
+    width: 415px;
+    height: 45px;
+    font-size: larger;
+}
+.finalise button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(254,94,23);
+    font-size: larger;
+    border-radius: 5px;
+    
+}
+.labels{
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.check input{
+    height: 15px;
+    width: 50px;
+}
+/* <div className='package'>
+{
+    package.map((silver,i)=>(
+      <div key="{i}"className='silver'>
+      <h1 className='silh1'>Silver</h1>
+     
+        <div className='free'>
+          <h1>Free</h1>
+         
+          <h2>For A Week</h2>
+        </div>
+    ))
+    */

@@ -1,0 +1,102 @@
+.blogcom{
+    height:50vh;
+    width: 100%;
+    background-image: url(membership4.webp);
+    background-size: cover;
+    background-position: center;
+   
+}
+.head1{
+    display: flex;
+    justify-content:space-around;
+    
+    align-items:flex-start;
+    padding: 140px;
+    
+    flex-direction: column;
+}
+.membership h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-style: oblique;
+
+}
+.membership h2{
+    color:rgb(225,94,23);
+    font-style: oblique;
+}
+.wrapper{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(25,25,24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 250px;
+    gap: 30px;
+}
+
+.wrapper-box{
+    height: 95vh;
+    width: 60%;
+    padding: 10px;
+    padding-top: 10px;
+    margin: 5vh;
+    background-color: rgb(32,32,31);
+
+}
+.wrapper-box h1{
+    color: rgb(255,255,255);
+    font-size: 35px;
+
+}
+.wrapper-box h1:hover{
+    color: rgb(225,94,23);
+}
+.wrapper-box h2{
+    color: rgb(255,255,255);
+    
+}
+.para{
+    padding-top: 5px;
+}
+.wrapper-box h3{
+    color: rgb(147,147,147);
+}
+.blogimg img{
+    height: 60vh;
+    width: 100%;
+}
+.wrapper-box button{
+    height: 40px;
+    width: 160px;
+    
+    font-size: large;
+    color: white;
+    background-color: rgb(225,94,23);
+    border-radius: 20px;
+}
+.wrapper-box button:hover{
+    background-color: rgb(11, 10, 10);
+    border: 2px solid rgb(225,94,23);
+}
+.btn{
+    height: 60px;
+    width: 170px;
+    padding-top: 19px;
+}
+/* <div className='wrapper-box'>
+    <div className='blogimg'>
+      <img src="blog1.jpeg" alt="here" />
+    </div>
+    <h1>The Science Behind Weight Loss: Understanding Calorie Deficit</h1>
+    <h2>April 30, 2024</h2>
+    <div className='para'>
+    <h3>We understand that weight loss is a complex and multidimensional process that incorporates various essential factors such as the role of metabolism, calorie deficit, and regular exercise.Certain foods such as fatty, fried, or processed foods, etc. have extra amounts of calories in them. However, some food items such as fresh vegetables and fruits provide fewer calories.  </h3>
+    </div>
+    <div className='btn'>
+      <button>Read More</button>
+      </div>
+    </div> */
