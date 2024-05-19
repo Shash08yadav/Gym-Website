@@ -90,7 +90,7 @@ const Background = () => {
     </div>
     {/* yaha se appointmenty section hai */}
     <div className='galsec' style={{
-       backgroundImage:`url("appointment.jpeg")`
+       backgroundImage:`url("./appointment.jpeg")`
     }}>
       <div className='appoint'>
         <h1>REGISTRATION NOW TO GET MORE DEALS</h1>
