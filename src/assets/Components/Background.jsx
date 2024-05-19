@@ -36,7 +36,9 @@ const Background = () => {
   return (
     <>
   
-    <div className='photo'>
+    <div className='photo' style={{
+       backgroundImage: `url("gymdp.jpg")`
+    }}>
          <div className='quote'>
             <h1>Once you are exercising regularly, the hardest thing is to stop it.</h1>
             
