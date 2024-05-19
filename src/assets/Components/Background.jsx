@@ -81,7 +81,7 @@ const Background = () => {
       </div>
 
       <div className='callbox' style={{
-        backgroundImage: `url(logofill.webp)`
+        backgroundImage: `url("logofill.webp")`
       }}>
       <h1>Make a call for any type of query.</h1>
       <img src='call.png'></img>
