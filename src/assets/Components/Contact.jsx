@@ -27,7 +27,9 @@ const Contact = () => {
   }, [x, y])
   return (
     <>
-    <div className='membership'>
+    <div className='membership' style={{
+      backgroundImage: `url("membership4.webp")`
+    }}>
       <div className='head1'>
       <h1>USER REGISTRATION</h1>
       <h2>Fitnase - Registration</h2>

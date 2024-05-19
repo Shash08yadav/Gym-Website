@@ -39,7 +39,9 @@ const blogvid=[
 ]
   return (
     <>
-    <div className='membership'>
+    <div className='blogcom' style={{
+      backgroundImage:`url("membership4.webp")`
+    }}>
       <div className='head1'>
       <h1>Blog</h1>
       <h2>Fitnase - Blog</h2>

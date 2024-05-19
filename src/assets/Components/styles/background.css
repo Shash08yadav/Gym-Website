@@ -256,7 +256,7 @@
   border:2px solid rgb(225,94,23) ;
 }
 .callbox{
-  background-image: url(logofill.webp);
+  /* background-image: url(logofill.webp); */
   height: 50vh;
   width: 30%;
   display: flex;
@@ -289,7 +289,7 @@
   .galsec{
     height: 80vh;
     width: 100%;
-    background-image: url("appointment.jpeg");
+    /* background-image: url("appointment.jpeg"); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

@@ -60,7 +60,9 @@ const Membership = () => {
 
   return (
     <>
-    <div className='blogcom'>
+    <div className='membership' style={{
+      backgroundImage: `url(membership4.webp)`
+    }}>
       <div className='head1'>
       <h1>Membership</h1>
       <h2>Fitnase - Membership</h2>

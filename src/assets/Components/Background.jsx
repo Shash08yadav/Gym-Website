@@ -80,14 +80,18 @@ const Background = () => {
         <button>Submit Now</button>
       </div>
 
-      <div className='callbox'>
+      <div className='callbox' style={{
+        backgroundImage: `url(logofill.webp)`
+      }}>
       <h1>Make a call for any type of query.</h1>
       <img src='call.png'></img>
       <h2>+9166239672</h2>
       </div>
     </div>
     {/* yaha se appointmenty section hai */}
-    <div className='galsec'>
+    <div className='galsec' style={{
+       backgroundImage:`1url("appointment.jpeg")`
+    }}>
       <div className='appoint'>
         <h1>REGISTRATION NOW TO GET MORE DEALS</h1>
         <h2>WHERE HEALTH, BEAUTY AND FITNESS MEET.</h2>
